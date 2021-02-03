@@ -58,7 +58,7 @@ Paramètre
 - durée de l'emprunt
 - nombre de livres empruntables pour une personne par emprunt
 - le montant des amendes de retard
-​
+
 User (le bibliothécaire)
 
 - email
