@@ -52,7 +52,7 @@ Emprunt
 - date de retour
 - relation many to one avec Livre
 - relation many to one avec Emprunt
-​
+
 Paramètre
 
 - durée de l'emprunt
