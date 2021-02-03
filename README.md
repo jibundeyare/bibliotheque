@@ -4,9 +4,9 @@ Le client veut un site de bibliothèque en ligne.
 
 Côté front :
 
-- un catalogue en ligne des livres
+- un catalogue en ligne des livres  
   *optionnel:* affichage de la disponibilité de chaque livre
-- un formulaire d'inscription pour les emprunteurs
+- un formulaire d'inscription pour les emprunteurs  
   l'email doit être unique
 
 Côté back :
@@ -43,8 +43,8 @@ Emprunteur
 - drapeau blacklisté pour emprunteur
 - carte emprunteur : bool
 - relation one to many avec Emprunt
-​
-La classe Emprunteur est une entité normale générée par `php bin/console make:entity`.
+
+*La classe Emprunteur est une entité normale générée par `php bin/console make:entity`.*
 
 Emprunt
 
@@ -64,4 +64,4 @@ User (le bibliothécaire)
 - email
 - mot de passe
 
-La classe User est la classe User générée par `php bin/console make:user`.
+*La classe User est la classe User générée par `php bin/console make:user`.*
