@@ -9,7 +9,7 @@ Le client veut un site de bibliothèque en ligne.
 - un formulaire d'inscription pour les emprunteurs  
   l'email doit être unique
 
-## Côté back
+## Côté back
 
 - un CRUD pour les livres
 - un CRUD pour les emprunteurs
@@ -22,7 +22,7 @@ Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 
 ## Entités
 
-### Livre
+### Livre
 
 - titre du livre
 - genre du livre
@@ -36,7 +36,7 @@ Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 - état du livre
 - relation one to many avec Emprunt
 
-### Emprunteur
+### Emprunteur
 
 - nom de l'emprunteur
 - email / tel de l'emprunteur
@@ -46,20 +46,20 @@ Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 
 *La classe Emprunteur est une entité normale générée par `php bin/console make:entity`.*
 
-### Emprunt
+### Emprunt
 
 - date d’emprunt
 - date de retour
 - relation many to one avec Livre
 - relation many to one avec Emprunt
 
-### Paramètre
+### Paramètre
 
 - durée de l'emprunt
 - nombre de livres empruntables pour une personne par emprunt
 - le montant des amendes de retard
 
-### User (le bibliothécaire)
+### User (le bibliothécaire)
 
 - email
 - mot de passe
