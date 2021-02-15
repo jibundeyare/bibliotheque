@@ -18,7 +18,7 @@ Le client veut un site de bibliothèque en ligne.
 
 Le front est accessible à tout le monde.
 Le back n'est accessible qu'aux bibliothécaires.
-Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.  
+Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 
 ## Entités
 
@@ -51,7 +51,7 @@ Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 - date d’emprunt
 - date de retour
 - relation many to one avec Livre
-- relation many to one avec Emprunt
+- relation many to one avec Emprunteur
 
 ### Paramètre
 
