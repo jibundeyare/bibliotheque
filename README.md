@@ -65,3 +65,13 @@ Les bibliothécaires peuvent utiliser un formulaire pour s'authentifier.
 - mot de passe
 
 *La classe User est la classe User générée par `php bin/console make:user`.*
+
+## À faire
+
+- créer des fixtures qui insèrent au moins 1 user bilbiothécaire (de rôle `ROLE_ADMIN`)
+- interface d'authentification pour le user bilbiothécaire
+- un CRUD pour chaque entité sauf User (car on va gérer les user avec des fixtures)
+- les CRUD doivent être protégé par mot de passe
+  le plus simple c'est de rajouter un `/admin` dans leur prefix
+- ajouter des contraintes de validation sur chaque entité
+
